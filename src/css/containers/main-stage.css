@@ -5,3 +5,13 @@
     justify-content: center;
     height: 80vh;
 }
+
+.main-stage > .simple-title {
+    font-size: 50px;
+    margin-bottom: var(--gap-medium);
+}
+
+.main-stage > .simple-subtitle {
+    font-size: 25px;
+    margin-bottom: var(--gap-big);
+}
