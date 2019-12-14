@@ -4,14 +4,23 @@
     align-items: center;
     justify-content: center;
     height: 80vh;
+    font-size: 15px;
 }
 
 .main-stage > .simple-title {
-    font-size: 50px;
-    margin-bottom: var(--gap-medium);
+    font-size: 22px;
+    margin-bottom: var(--gap-smaller);
 }
 
 .main-stage > .simple-subtitle {
-    font-size: 25px;
     margin-bottom: var(--gap-big);
+}
+
+.main-stage > .primary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 28px;
+    margin-bottom: var(--gap-smaller);
 }
